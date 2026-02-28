@@ -5,11 +5,11 @@
 
 # 📌 Project Overview
 
-The Real Estate AI Voice Assistant is an end-to-end conversational telephony system that simulates a professional real estate sales executive.
+This project is a real-time AI voice assistant designed for intelligent real estate sales conversations.
 
 The system is capable of:
 
-- Handling live voice conversations
+- Handling live microphone-based voice conversations
 - Detecting speech using Voice Activity Detection (VAD)
 - Converting speech to text using Faster-Whisper
 - Understanding intent using Gemini API
@@ -18,7 +18,18 @@ The system is capable of:
 - Handling interruptions naturally
 - Generating executive-level Minutes of Meeting (MoM) after the call
 
-This project demonstrates real-time AI systems integration with telephony.
+This project demonstrates a complete conversational AI pipeline with structured business logic and CRM-style memory tracking.
+
+---
+# What this project demonstrates 
+
+It demonstrates:
+-Real-time audio processing
+-Structured conversational reasoning
+-Lead qualification intelligence
+-Stateful session memory
+-Post-call business analytics generation
+-API-based modular architecture
 
 ---
 
@@ -108,22 +119,6 @@ The assistant will:
 
 ---
 
-## 🟢 Step 7: Run FastAPI Server (Telephony Mode)
-
-```bash
-python -m uvicorn src.api_server:app --host 0.0.0.0 --port 8000
-```
-
-Open browser:
-
-```
-http://localhost:8000/docs
-```
-
-Test the `/process` endpoint.
-
----
-
 # 🏗 Architecture Diagram
  ![System Architecture](docs/mermaid-diagram.png)
 
@@ -153,6 +148,7 @@ Test the `/process` endpoint.
 - Session Management
 - Lead Qualification Logic
 - Conversation Memory Tracking
+- Post-Call intelligence Generator
 
 ---
 
@@ -220,4 +216,5 @@ Generates structured post-call report including:
 
 Mohit Gunani , Aditya Kumar Sharma  
 IIT BHU  
+
 
