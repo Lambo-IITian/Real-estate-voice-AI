@@ -1,0 +1,2 @@
+store settings, parameters for the project 
+eg. in a function in some python file we use parameters(batchsize,max_length) so instead of hardcoding thse values in the original file we place them here so changing in this file will change all values everywhere

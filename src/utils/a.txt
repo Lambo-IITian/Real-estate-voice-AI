@@ -1,0 +1,3 @@
+containing smaller helper functions that will be used in various places in the project 
+not the mian logic 
+eg. text cleaning 
