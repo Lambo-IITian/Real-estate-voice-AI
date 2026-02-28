@@ -125,7 +125,7 @@ Test the `/process` endpoint.
 ---
 
 # 🏗 Architecture Diagram
- ![System Architecture](docs/architecture.png)
+ ![System Architecture](docs/mermaid-diagram.png)
 
 ---
 
@@ -220,3 +220,4 @@ Generates structured post-call report including:
 
 Mohit Gunani , Aditya Kumar Sharma  
 IIT BHU  
+
